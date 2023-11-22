@@ -97,18 +97,8 @@ namespace form_textboxes_output
                 txtEmployeeID.Text = row["EmployeeID"].ToString();
                 txtFirstName.Text = row["FirstName"].ToString();
                 txtLastName.Text = row["LastName"].ToString();
-            }
-                // row = dataTable.Rows[currentPosition];
-                // Update your form controls with data from the DataRow
-                //txtEmployeeID.Text = row["EmployeeID"].ToString();
-                //txtFirstName.Text = row["FirstName"].ToString();
-                //txtLastName.Text = row["LastName"].ToString();
-
-                // Populate TextBoxes with data from the reader
-                //txtEmployeeID.Text = reader["EmployeeID"].ToString();
-                //txtFirstName.Text = reader["FirstName"].ToString();
-                //txtLastName.Text = reader["LastName"].ToString();
-                // Add more TextBoxes for other columns as needed
+            }              
+                
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
